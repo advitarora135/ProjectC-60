@@ -1,0 +1,49 @@
+h1 {
+    font-family: monospace;
+    font-size: 300%;
+    color: yellow;
+}
+
+p {
+    font-family: courier;
+    font-size: 160%;
+    color: greenyellow;
+}
+
+body {
+    text-align: center;
+    background-color: teal;
+}
+
+.menu {
+    list-style: none;
+    float: right;
+    top: 10px;
+    right: 30px;
+    cursor: pointer;
+}
+
+#block {
+    border-radius: 175px;
+    height: 400;
+}
+
+section {
+    background-color: cornflowerblue;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+img {
+    height: 150px;
+    border-width: 30px;
+    border-color: black;
+}
+img {
+    transition: transform .2s;
+}
+img:hover {
+    transform: scale(1.1)
+}
